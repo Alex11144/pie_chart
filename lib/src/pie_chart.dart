@@ -269,7 +269,6 @@ class _PieChartState extends State<PieChart>
                           : item.length < 20
                               ? 12
                               : 10),
-,
                   legendShape: widget.legendOptions.legendShape,
                 ),
               )
