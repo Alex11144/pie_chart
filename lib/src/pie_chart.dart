@@ -175,7 +175,7 @@ class _PieChartState extends State<PieChart>
       case LegendPosition.top:
         return Column(
           mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+          children:[
             _getLegend(
               padding: EdgeInsets.only(
                 bottom: widget.chartLegendSpacing,
@@ -188,7 +188,7 @@ class _PieChartState extends State<PieChart>
       case LegendPosition.bottom:
         return Column(
           mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+          children:[
             _getChart(),
             _getLegend(
               padding: EdgeInsets.only(
@@ -200,7 +200,7 @@ class _PieChartState extends State<PieChart>
       case LegendPosition.left:
         return Row(
           mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+          children: [
             _getLegend(
               padding: EdgeInsets.only(
                 right: widget.chartLegendSpacing,
@@ -212,7 +212,7 @@ class _PieChartState extends State<PieChart>
       case LegendPosition.right:
         return Row(
           mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+          children: [
             _getChart(),
             _getLegend(
               padding: EdgeInsets.only(
@@ -224,7 +224,7 @@ class _PieChartState extends State<PieChart>
       default:
         return Row(
           mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+          children: [
             _getChart(),
             _getLegend(
               padding: EdgeInsets.only(
