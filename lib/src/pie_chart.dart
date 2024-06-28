@@ -264,7 +264,7 @@ class _PieChartState extends State<PieChart>
                           legendTitles!.indexOf(item),
                         ),
                         style: TextStyle(
-                      fontSize: item.length < 55
+                      fontSize: item.length < 45
                           ? 15
                               : 10),
                   legendShape: widget.legendOptions.legendShape,
